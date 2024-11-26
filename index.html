@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologías Cloud</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/css/foundation.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100">
+    <header class="bg-blue-800 text-white py-6 shadow-md text-center">
+        <h1 class="text-4xl mb-3 font-bold"><img width="600" height="600" src="logo.jpeg"></h1>          
+        <nav class="flex justify-center gap-6 text-lg">
+            <a href="#historia" class="hover:bg-white hover:text-blue-800 hover:scale-110 transition ease-in-out px-4 py-2 rounded">Historia</a>
+            <a href="#tipos" class="hover:bg-white hover:text-blue-800 hover:scale-110 transition ease-in-out px-4 py-2 rounded">Tipos</a>
+            <a href="#aplicaciones" class="hover:bg-white hover:text-blue-800 hover:scale-110 transition ease-in-out px-4 py-2 rounded">Aplicaciones</a>
+            <a href="#album" class="hover:bg-white hover:text-blue-800 hover:scale-110 transition ease-in-out px-4 py-2 rounded">Galería</a>
+            <a href="#contacto" class="hover:bg-white hover:text-blue-800 hover:scale-110 transition ease-in-out px-4 py-2 rounded">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="historia">
+        <div class="card text-center rounded-md content-wrapper">
+            <h2 class="text-2xl font-semibold text-gray-700 max-w-6xl mx-auto">Historia de las Tecnologías Cloud</h2>
+                <video class="block mx-auto rounded-md hover:scale-105 transition" width="500" height="400" controls preload="metadata">
+                    <source src="Vid.webm" type="video/webm">
+                    <div class="fallback-message">
+                    <p>Tu navegador no soporta el elemento de video.</p>
+                    <p>Puedes <a href="Vid.webm">descargar el video</a> y verlo en tu reproductor favorito.</p>
+                </div>
+            </video>
+            <p class="mt-4 text-gray-600 max-w-4xl mx-auto">Las tecnologías de la nube han evolucionado desde la computación compartida hasta convertirse en la infraestructura central del siglo XXI. Inicialmente, se utilizaban servidores centrales para alojar aplicaciones y almacenar datos. Con la llegada de internet de alta velocidad y la virtualización, las empresas pudieron ofrecer recursos a través de internet, lo que permitió el acceso remoto a servidores, almacenamiento y aplicaciones. Desde sus inicios en la década de los 60 hasta la explosión de los grandes proveedores como AWS, Google Cloud y Microsoft Azure, la computación en la nube ha revolucionado la manera en que operan las empresas y los usuarios.</p>
+            <p class="mt-4 text-gray-600 max-w-4xl mx-auto">Hoy en día, la nube no solo soporta servicios de infraestructura, sino que también ofrece plataformas y software como servicio, lo que permite a las empresas reducir costos, mejorar la flexibilidad y la escalabilidad, y centrarse más en su negocio en lugar de en la infraestructura tecnológica. La adopción masiva de la nube está impulsada por la necesidad de innovación constante y la demanda de acceso global y disponibilidad continua.</p>
+            <button class="bg-blue-800 px-4 py-2 mt-4 rounded transition">Leer más</button>
+        </div>
+    </section>
+ 
+    <section id="tipos">
+        <div class="card text-center content-wrapper">
+            <h2 class="text-2xl font-semibold text-gray-700 max-w-6xl mx-auto">Tipos de Servicios Cloud</h2>    
+            <img src="tiposservicios.jpg" alt="Tipos de servicios cloud" class="block mx-auto rounded-md hover:scale-105 transition">
+            <p class="mt-4 text-gray-600 max-w-4xl mx-auto">La nube ofrece diferentes tipos de servicios, cada uno adecuado para distintos niveles de control y flexibilidad. Estos son:</p>
+            <ul class="list-disc text-left text-gray-600 mt-4 mx-auto max-w-4xl">
+                <li><strong>IaaS (Infrastructure as a Service)</strong>: Ofrece infraestructura informática virtualizada a través de internet. Los usuarios pueden alquilar servidores, almacenamiento y redes según sus necesidades. Ejemplos: AWS EC2, Google Compute Engine.</li>
+                <li><strong>PaaS (Platform as a Service)</strong>: Proporciona un entorno completo para el desarrollo, implementación y gestión de aplicaciones sin necesidad de gestionar la infraestructura subyacente. Ejemplos: Google App Engine, Microsoft Azure App Services.</li>
+                <li><strong>SaaS (Software as a Service)</strong>: Los usuarios acceden a aplicaciones listas para usar a través de internet sin necesidad de instalar software en sus dispositivos. Ejemplos: Google Workspace, Microsoft 365, Salesforce.</li>
+            </ul>
+            <button class="bg-blue-800 px-4 py-2 mt-4 rounded transition">Explorar</button>
+        </div>
+    </section>
+    
+    <section id="aplicaciones">
+        <div class="card text-center content-wrapper">
+            <h2 class="text-2xl font-semibold text-gray-700 max-w-6xl mx-auto">Aplicaciones en la Nube</h2>    
+            <img src="images.jfif" alt="Aplicaciones en la nube" class="block mx-auto rounded-md hover:scale-105 transition">
+            <p class="mt-4 text-gray-600 max-w-4xl mx-auto">Las aplicaciones en la nube permiten a las organizaciones mejorar su eficiencia operativa, reducir costos, y acceder a tecnologías avanzadas sin tener que mantener infraestructura física costosa. Algunos ejemplos</p>
+            <ul class="list-disc text-left text-gray-600 mt-4 mx-auto max-w-4xl">
+                <li><strong>Almacenamiento en la nube</strong>: Servicios como Google Drive, Dropbox y Amazon S3 permiten almacenar y acceder a archivos desde cualquier lugar del mundo.</li>
+                <li><strong>Colaboración en tiempo real</strong>: Herramientas como Google Docs y Microsoft Office 365 facilitan la colaboración de equipos en proyectos, independientemente de la ubicación geográfica.</li>
+                <li><strong>Inteligencia Artificial y Machine Learning</strong>: Plataformas como Google AI y Microsoft Azure AI proporcionan herramientas de IA que permiten a las empresas integrar capacidades avanzadas sin tener que construir infraestructura propia.</li>
+                <li><strong>Computación de alto rendimiento</strong>: Empresas que necesitan grandes capacidades de procesamiento, como las de investigación científica o análisis de grandes datos, pueden aprovechar la potencia de la nube para ejecutar simulaciones y análisis.</li>
+            </ul>
+            <button class="bg-blue-800 px-4 py-2 mt-4 rounded transition">Conocer más</button>
+        </div>
+    </section>
+    
+    <section id="album">
+        <div class="content-wrapper">  
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <img src="historia.jpg" alt="Cloud1">
+            </div>
+            <div class="carousel-slide">
+                <img src="cloud.jpg" alt="Cloud2">
+            </div>
+            <div class="carousel-slide">
+                <img src="cloud2.jpg" alt="Cloud3">
+            </div>
+            <div class="carousel-slide">
+                <img src="cloud3.jpg" alt="Cloud4">
+            </div>
+            <button class="carousel-control prev" onclick="changeSlide(-1)">‹</button>
+            <button class="carousel-control next" onclick="changeSlide(1)">›</button>
+        </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="content-wrapper">
+            <h2 class="text-2xl font-semibold text-center">Contacto</h2>    
+            <div class="bg-white p-6 rounded shadow-lg">
+                <form class="grid gap-4 mt-4">
+                    <div class="mb-3">
+                        <label for="nombre" class="block text-gray-800 font-medium">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control rounded border-gray-300 custom-focus text-gray-800" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="block text-gray-800 font-medium">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" class="form-control rounded border-gray-300 custom-focus text-gray-800" placeholder="Tu correo electrónico" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="block text-gray-800 font-medium">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" class="form-control rounded border-gray-300 custom-focus text-gray-800" placeholder="Tu número de teléfono">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="block text-gray-800 font-medium">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="3" class="form-control rounded border-gray-300 custom-focus text-gray-800" placeholder="Tu mensaje" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="preferencia" class="block text-gray-800 font-medium">¿Cómo prefieres que te contactemos?</label>
+                        <select id="preferencia" name="preferencia" class="form-select rounded border-gray-300 custom-focus text-gray-800">
+                            <option value="email" selected>Por correo electrónico</option>
+                            <option value="telefono">Por teléfono</option>
+                            <option value="whatsapp">Por WhatsApp</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="bg-blue-400 hover:bg-white hover:text-blue-800 font-bold border-2 border-blue-800 px-4 py-2 rounded transition text-white">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer class="bg-blue-800 text-white py-4 text-center mt-6">
+        <p>&copy; Dise&#241;ado por Karla Castilla y José Luis Guerrero</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+            document.addEventListener("visibilitychange", function() {
+            if (document.hidden) {
+                document.title = "!Vuelve a Tecnologías Cloud¡";
+            } else {
+                document.title = "Tecnologías Cloud";
+            }
+        });
+    </script>
+<script>
+    const slides = document.querySelectorAll('.carousel-slide');
+    let currentIndex = 0;
+
+    function changeSlide(direction) {
+        slides[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + direction + slides.length) % slides.length;
+        slides[currentIndex].classList.add('active');
+    }
+</script>
+</body>
+</html>
