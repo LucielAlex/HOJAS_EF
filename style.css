@@ -305,4 +305,56 @@
             height: 100%;
             object-fit: cover;
         }
+    .card {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .content-wrapper {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .text-2xl {
+        font-size: 1.5rem; 
+    }
+
+    video {
+        width: 100%;
+        height: auto; 
+    }
+
+    .mt-4 {
+        margin-top: 12px; 
+    }
+
+    .max-w-6xl {
+        max-width: 100%;
+    }
+
+    .max-w-4xl {
+        max-width: 100%;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav a:hover {
+        transform: scale(1.05);
+    }
     }
