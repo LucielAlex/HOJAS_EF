@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/css/foundation.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -43,15 +42,46 @@
  
     <section id="tipos">
         <div class="card text-center content-wrapper">
-            <h2 class="text-2xl font-semibold text-gray-700 max-w-6xl mx-auto">Tipos de Servicios Cloud</h2>    
-            <img src="tiposservicios.jpg" alt="Tipos de servicios cloud" class="block mx-auto rounded-md hover:scale-105 transition">
-            <p class="mt-4 text-gray-600 max-w-4xl mx-auto">La nube ofrece diferentes tipos de servicios, cada uno adecuado para distintos niveles de control y flexibilidad. Estos son:</p>
-            <ul class="list-disc text-left text-gray-600 mt-4 mx-auto max-w-4xl">
-                <li><strong>IaaS (Infrastructure as a Service)</strong>: Ofrece infraestructura informática virtualizada a través de internet. Los usuarios pueden alquilar servidores, almacenamiento y redes según sus necesidades. Ejemplos: AWS EC2, Google Compute Engine.</li>
-                <li><strong>PaaS (Platform as a Service)</strong>: Proporciona un entorno completo para el desarrollo, implementación y gestión de aplicaciones sin necesidad de gestionar la infraestructura subyacente. Ejemplos: Google App Engine, Microsoft Azure App Services.</li>
-                <li><strong>SaaS (Software as a Service)</strong>: Los usuarios acceden a aplicaciones listas para usar a través de internet sin necesidad de instalar software en sus dispositivos. Ejemplos: Google Workspace, Microsoft 365, Salesforce.</li>
-            </ul>
-            <button class="bg-blue-800 px-4 py-2 mt-4 rounded transition">Explorar</button>
+            <h2 class="text-2xl font-semibold text-gray-700 max-w-6xl mx-auto">Tipos de Servicios Cloud</h2>
+            <div id="carouselTiposServicios" class="carousel slide mt-4" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselTiposServicios" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselTiposServicios" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselTiposServicios" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="8900">
+                        <img src="slider1.jpg" class="d-block w-100 rounded" alt="IaaS">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-blue-800 font-bold bg-white bg-opacity-50 rounded p-2">IaaS (Infrastructure as a Service)</h5>
+                            <p class="text-black bg-white bg-opacity-50 rounded p-2">Ofrece infraestructura informática virtualizada a través de internet. Ejemplos: AWS EC2, Google Compute Engine.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="slider2.jpg" class="d-block w-100 rounded" alt="PaaS">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-blue-800 font-bold bg-white bg-opacity-50 rounded p-2">PaaS (Platform as a Service)</h5>
+                            <p class="text-black bg-white bg-opacity-50 rounded p-2">Proporciona un entorno completo para el desarrollo, implementación y gestión de aplicaciones. Ejemplos: Google App Engine, Azure App Services.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="slider3.jpg" class="d-block w-100 rounded" alt="SaaS">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-blue-800 font-bold bg-white bg-opacity-50 rounded p-2">SaaS (Software as a Service)</h5>
+                            <p class="text-black bg-white bg-opacity-50 rounded p-2">Los usuarios acceden a aplicaciones listas para usar a través de internet. Ejemplos: Google Workspace, Microsoft 365, Salesforce.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTiposServicios" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTiposServicios" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+            <button class="bg-blue-800 px-4 py-2 mt-4 rounded transition hover:bg-blue-700">Explorar</button>
         </div>
     </section>
     
